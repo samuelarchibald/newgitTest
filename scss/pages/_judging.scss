@@ -19,7 +19,7 @@
 			font-size: 38px;
 			font-style: italic;
 			font-weight: 900;
-			@include fontsize(70);
+			@include fontsize(60);
 		}
 		.sub {
 			@include fontsize(20);		
@@ -40,9 +40,9 @@
 .judging-section-two {
 	position: relative;
 	top:830px;
-	background-color:#ccc;
+	background-color:$judge-grey;
 	height:400px;
-	@include skewYOU(#ccc, 4);
+	@include skewYOU($judge-grey, 4);
 	&:before {
 		position: absolute;
 		top:-160px;

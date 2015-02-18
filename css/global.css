@@ -57,7 +57,9 @@ nav {
     float: left;
     padding-top: 25px;
     margin-left: 40px;
-    transform: all 1s ease; }
+    -webkit-transform: all 1s ease;
+        -ms-transform: all 1s ease;
+            transform: all 1s ease; }
 
 .right .item {
   float: right; }
@@ -77,13 +79,13 @@ nav {
   color: #fff; }
 
 h1 {
-  font-size: 80px; }
+  font-size: 70px; }
   @media (max-width: 900px) {
     h1 {
-      font-size: 60px; } }
+      font-size: 53px; } }
   @media (max-width: 500px) {
     h1 {
-      font-size: 56px; } }
+      font-size: 49px; } }
 
 h2 {
   font-size: 48px; }
@@ -259,13 +261,13 @@ a {
     font-size: 38px;
     font-style: italic;
     font-weight: 900;
-    font-size: 70px; }
+    font-size: 60px; }
     @media (max-width: 900px) {
       .judging .first .title {
-        font-size: 53px; } }
+        font-size: 45px; } }
     @media (max-width: 500px) {
       .judging .first .title {
-        font-size: 49px; } }
+        font-size: 42px; } }
   .judging .first .sub {
     font-size: 20px;
     line-height: 33px; }
@@ -292,12 +294,14 @@ a {
     height: 250px;
     background: #fff;
     z-index: 1;
-    transform: skewY(-3deg); }
+    -webkit-transform: skewY(-3deg);
+        -ms-transform: skewY(-3deg);
+            transform: skewY(-3deg); }
 
 .judging-section-two {
   position: relative;
   top: 830px;
-  background-color: #ccc;
+  background-color: #818181;
   height: 400px;
   z-index: 2; }
   .judging-section-two:before {
@@ -308,9 +312,11 @@ a {
     overflow: visible;
     width: 100%;
     height: 250px;
-    background: #ccc;
+    background: #818181;
     z-index: 1;
-    transform: skewY(4deg); }
+    -webkit-transform: skewY(4deg);
+        -ms-transform: skewY(4deg);
+            transform: skewY(4deg); }
   .judging-section-two:before {
     position: absolute;
     top: -160px; }

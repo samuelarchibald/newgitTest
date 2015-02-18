@@ -77,13 +77,13 @@ nav {
   color: #fff; }
 
 h1 {
-  font-size: 80px; }
+  font-size: 70px; }
   @media (max-width: 900px) {
     h1 {
-      font-size: 60px; } }
+      font-size: 53px; } }
   @media (max-width: 500px) {
     h1 {
-      font-size: 56px; } }
+      font-size: 49px; } }
 
 h2 {
   font-size: 48px; }

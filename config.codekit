@@ -13,7 +13,7 @@
 		},
 	"\/css\/global.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/global.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -298,12 +298,12 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/global.scss",
-		"outputAbbreviatedPath": "\/Users\/samuelclark\/Dropbox\/SB_APP_AWARDS\/WEBSITE_DEB_17TH\/css\/global.css",
+		"outputAbbreviatedPath": "\/css\/global.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/scss\/pages\/_about.scss": {
@@ -353,6 +353,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/Users\/samuelclark\/Dropbox\/SB_APP_AWARDS\/WEBSITE_DEB_17TH\/css\/global.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Users\/samuelclark\/Dropbox\/SB_APP_AWARDS\/WEBSITE_DEB_17TH\/css\/global.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -969,7 +978,7 @@
 	"markdownEnableFootnotes": 0,
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
-	"reloadFileURLs": 0,
+	"reloadFileURLs": 1,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",

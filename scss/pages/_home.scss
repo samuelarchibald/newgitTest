@@ -79,17 +79,15 @@
 		@include coverphoto;
 	}
 	.divider {
-		// background-color:complement(rgba(226,156,74,0.3));
 		background-color:$white;
 		h1 {
 			padding-top:30px;
 			line-height: 150px;
 			@include bigfont(40);
-			// color:darken(complement(rgba(226,156,74,0.3)), 10%);
 			color:black;
 		}
 		p {
-			padding-bottom: 100px;
+			padding-bottom: 40px;
 		}
 	}
 	.discover {
@@ -101,6 +99,7 @@
 			width:100%;
 			margin: 50px 0;
 			background-image: url(../../imgs/car.png);
+			@include coverphoto;
 		}
 		p {
 			margin: 40px 0;

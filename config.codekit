@@ -214,6 +214,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/nominate.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/nominate.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -354,14 +363,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/samuelclark\/Dropbox\/SB_APP_AWARDS\/WEBSITE_DEB_17TH\/css\/global.css": {
-		"fileType": 16,
+	"\/scss\/pages\/_nominate.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/samuelclark\/Dropbox\/SB_APP_AWARDS\/WEBSITE_DEB_17TH\/css\/global.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/scss\/pages\/_nominate.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_nominate.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		}
 	},
 "hooks": [

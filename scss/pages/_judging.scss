@@ -31,21 +31,115 @@
 .judging-section {
 	position: relative;
 	top:830px;
+	@media (max-width: 900px) {
+		position: static;
+	}
 	background-color:white;
-	height:700px;
+	height: 600px;
+	@media (max-width: 900px) {
+		height:0;
+	}
 	@include skewYOU(#fff, -3);
 	z-index: 2;
+	h2 {
+		@include fontsize(80);
+		@media (max-width: 900px) {
+		padding-top:50px;
+	}
+	}
+	p {
+		padding-top:40px; 
+		font-weight: 300;
+	}
 }
 
 .judging-section-two {
 	position: relative;
 	top:830px;
+	@media (max-width: 900px) {
+		height:700px;
+	}
 	background-color:$judge-grey;
-	height:400px;
+	height:600px;
 	@include skewYOU($judge-grey, 4);
 	&:before {
 		position: absolute;
 		top:-160px;
 	}
 	z-index: 2;
+	h2 {
+		@include fontsize(80);
+		@media (max-width: 900px) {
+		padding-top:50px;
+	}
+	}
+	p {
+		color:#fff;
+		padding-top:40px;
+		font-weight: 300;
+		padding-bottom: 50px; 
+	}
+}
+.judging-section-three {
+	position: relative;
+	top:830px;
+	background-color:$white;
+	@include skewYOU($white, -3);
+	&:before {
+		position: absolute;
+		top:-160px; 
+	}
+	z-index: 2;
+	h2 {
+		@include fontsize(80);
+		@media (max-width: 900px) {
+			padding-top:50px;
+		}
+	}
+	p {
+		padding-top:40px;
+		font-weight: 300;
+		padding-bottom: 50px;
+	}
+}
+.judging-rest {
+	position: relative;
+	top:830px;
+	background-color:$white;
+	height:500px;
+	h3 {
+		text-align: center;
+		@include fontsize(50);
+	}
+	.third {
+		margin:100px 0;
+		width:33%;
+		@media (max-width: 900px) {
+			width:100%;
+		}
+		float:left;
+		text-align: center;
+		.circle {
+			height:200px;
+			width:200px;
+			border-radius: 100%;
+			background-color:#ccc;
+			margin:20px auto;
+			box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+		}
+	}
+	h4 {
+		text-align: center;
+	}
+}
+
+.red {
+	color:$red;
+}
+
+.blue {
+	color:$blue-grey;
+}
+.marine {
+	color:$marine;
 }

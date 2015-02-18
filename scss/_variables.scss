@@ -3,3 +3,8 @@ $complementary-color: complement($blue-color);
 $blue-light: lighten($blue-color, 20%);
 $white: #fff;
 $judge-grey: #818181;
+$red: #FF6F78;
+$complimentRed: complement($red);
+$blue-grey: #C6D0FF;
+$complimentBlueGrey: complement($blue-grey);
+$marine: #33DCB6;

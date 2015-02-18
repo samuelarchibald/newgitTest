@@ -1,7 +1,8 @@
 .home {
 
 	.full-screen {
-		background-color:$complementary-color;
+		background-image: url(../../imgs/beach.png);
+		@include coverphoto;
       	height:500px;
 		@media (min-width:700px){
 			height:90vh;
@@ -10,13 +11,24 @@
 			height:500px;
 		}
 	}
-	 
+	.header-background {
+		background-color:rgba(226,156,74,0.6);
+		height:500px;
+		@media (min-width:700px){
+			height:90vh;
+		}
+		@media (max-height:555px){
+			height:500px;
+		}
+	}
 	.header-text {
 		color:$white;
 		padding-top:50px;
 		h1 { 
+			top:100px;
 			padding-bottom: 30px;
 			font-weight: 900;
+			z-index: 10;
 		}
 		h3 {
 			font-weight: 300;
@@ -36,6 +48,8 @@
 	}
 	.millions {
 		margin: 100px auto;
+		background-color: $white;
+		z-index: 20;
 		h1 {
 			@include bigfont(100);
 			font-weight: 100;
@@ -50,16 +64,46 @@
 	}
 
 	.photo {
-		height:110vh;
-		background-color:$blue-color;
+		height:80vh;
+	}
+	.beach {
+		background-image: url(../../imgs/beach.jpg);
+		@include coverphoto;
+	}
+	.ipad{
+		background-image: url(../../imgs/man.jpg);
+		@include coverphoto;
+	}
+	.girl{
+		background-image: url(../../imgs/girl.jpg);
+		@include coverphoto;
 	}
 	.divider {
-		height:400px;
-		background-color:$complementary-color;
+		// background-color:complement(rgba(226,156,74,0.3));
+		background-color:$white;
 		h1 {
-			line-height: 400px;
-			@include bigfont(300);
-			color:darken($complementary-color, 10%);
+			padding-top:30px;
+			line-height: 150px;
+			@include bigfont(40);
+			// color:darken(complement(rgba(226,156,74,0.3)), 10%);
+			color:black;
+		}
+		p {
+			padding-bottom: 100px;
+		}
+	}
+	.discover {
+		h1{
+			margin:100px 0 40px 0;
+		}
+		.image {
+			height:300px;
+			width:100%;
+			margin: 50px 0;
+			background-image: url(../../imgs/car.png);
+		}
+		p {
+			margin: 40px 0;
 		}
 	}
 }

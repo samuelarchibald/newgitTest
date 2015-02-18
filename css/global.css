@@ -50,6 +50,8 @@ nav {
   @media (max-width: 960px) {
     nav {
       display: none; } }
+  nav img {
+    width: 100px; }
 
 .left .item {
   float: left; }

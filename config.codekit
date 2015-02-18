@@ -214,6 +214,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/scss\/_globals.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -341,15 +353,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/Users\/samuelclark\/Dropbox\/SB_APP_AWARDS\/WEBSITE_DEB_17TH\/css\/global.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/samuelclark\/Dropbox\/SB_APP_AWARDS\/WEBSITE_DEB_17TH\/css\/global.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -359,8 +362,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "WEBSITE_DEB_17TH",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "newgitTest",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray"
 	},
 "projectSettings": {

@@ -1,4 +1,6 @@
 .nominate {
+	height:100vh;
+	overflow: hidden;
 	h1{
 		color:$green;
 		padding-top:100px;
@@ -6,5 +8,74 @@
 	h4 {
 		color:$judge-grey;
 		padding-top:20px;
+	}
+	.step {
+		position: absolute;
+		text-align: center;
+		width:300px;
+		left:0;
+		right:0;
+		top:250px;
+		margin:0 auto;
+	}
+	.step-1{
+
+	}
+	.step-2 {
+		position: relative;
+		top:1500px;
+	}
+	input {
+		width:300px;
+		height:50px;
+		display:block;
+		margin: 30px auto;
+		border-radius: 5px;
+		background-color:$judge-grey;
+		border: none;
+		color:#fff;
+		padding-left: 20px;
+		&:active {
+			border:none;
+			color:#fff;
+		}
+		&:focus {
+			background:$red;
+			outline:none;
+			color:#fff;
+		}
+		&::-webkit-input-placeholder {
+		   color: #eee;
+		}
+
+		&:-moz-placeholder { /* Firefox 18- */
+		   color: $white;  
+		}
+
+		&::-moz-placeholder {  /* Firefox 19+ */
+		   color: $white;  
+		}
+
+		&:-ms-input-placeholder {  
+		   color: $white;  
+		}
+	}
+	button {
+		margin-top:20px;
+		width:200px;
+		height:50px;
+		font-size: 24px;
+		font-weight: 800;
+		background-color: transparent;
+		border: 5px solid #000;
+		&:hover {
+			background-color: #000;
+			color:$white;
+		}
+		&:focus {
+			background-color: #000;
+			color:$white;
+			outline:none;
+		}
 	}
 }

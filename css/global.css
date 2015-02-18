@@ -623,9 +623,65 @@ a {
   width: 200px;
   text-align: center; }
 
-.nominate h1 {
-  color: #7ED321;
-  padding-top: 100px; }
-.nominate h4 {
-  color: #818181;
-  padding-top: 20px; }
+.nominate {
+  height: 100vh;
+  overflow: hidden; }
+  .nominate h1 {
+    color: #7ED321;
+    padding-top: 100px; }
+  .nominate h4 {
+    color: #818181;
+    padding-top: 20px; }
+  .nominate .step {
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin: 0 auto; }
+  .nominate .step-2 {
+    position: relative;
+    top: 1500px; }
+  .nominate input {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: #818181;
+    border: none;
+    color: #fff;
+    padding-left: 20px; }
+    .nominate input:active {
+      border: none;
+      color: #fff; }
+    .nominate input:focus {
+      background: #FF6F78;
+      outline: none;
+      color: #fff; }
+    .nominate input::-webkit-input-placeholder {
+      color: #eee; }
+    .nominate input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #fff; }
+    .nominate input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff; }
+    .nominate input:-ms-input-placeholder {
+      color: #fff; }
+  .nominate button {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: transparent;
+    border: 5px solid #000; }
+    .nominate button:hover {
+      background-color: #000;
+      color: #fff; }
+    .nominate button:focus {
+      background-color: #000;
+      color: #fff;
+      outline: none; }

@@ -1,0 +1,5 @@
+$blue-color: #4A90e2;
+$complementary-color: complement($blue-color);
+$blue-light: lighten($blue-color, 20%);
+$white: #fff;
+$judge-grey: #818181;

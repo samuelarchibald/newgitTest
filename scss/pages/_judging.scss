@@ -1,0 +1,51 @@
+.judging {
+	.first {
+		padding:10px;
+		padding-bottom:300px;
+		position:fixed;
+		@media (max-width:900px){
+			padding-bottom: 100px;
+			position:static;
+		}
+		width:100%;
+		z-index: -200;
+		background-color:$judge-grey;
+		color:$white;
+		background:$judge-grey;
+		box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.1);
+		.title {
+			padding-top:200px;
+			padding-bottom:50px;
+			font-size: 38px;
+			font-style: italic;
+			font-weight: 900;
+			@include fontsize(70);
+		}
+		.sub {
+			@include fontsize(20);		
+			line-height: 33px;
+		}
+	}
+}
+
+.judging-section {
+	position: relative;
+	top:830px;
+	background-color:white;
+	height:700px;
+	@include skewYOU(#fff, -3);
+	z-index: 2;
+}
+
+.judging-section-two {
+	position: relative;
+	top:830px;
+	background-color:#ccc;
+	height:400px;
+	@include skewYOU(#ccc, 4);
+	&:before {
+		position: absolute;
+		top:-160px;
+	}
+	z-index: 2;
+}

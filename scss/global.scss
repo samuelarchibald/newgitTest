@@ -1,0 +1,12 @@
+@import "_reset.scss";
+@import "bourbon"; 
+
+//defining things
+@import "_variables.scss";
+@import '_mixins.scss';
+//global styles
+@import "_globals.scss";
+// Page specifics
+@import "pages/_home.scss";
+@import "pages/judging.scss";
+@import "pages/about.scss";
